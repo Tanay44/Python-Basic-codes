@@ -1,3 +1,7 @@
+#To mount drive in google colab
+from google.colab import drive
+drive.mount('/content/drive')
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
